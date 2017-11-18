@@ -42,7 +42,7 @@ var resetAndStart = function() {
 resetAndStart();
 
 
-$(".crystal").on('click', function () {
+$(document).on('click', ".crystal", function () {
 	
 
 	var num = parseInt($(this).attr('data-random'));
