@@ -3,7 +3,7 @@ var random_rersult;
 var lost = 0;
 var win = 0;
 var previous = 0;
-// $(".crystal").attr('class');
+
 
 var resetAndStart = function() {
 	
@@ -14,7 +14,7 @@ var resetAndStart = function() {
 	 	'https://i.pinimg.com/736x/a0/44/d2/a044d2bcbb1016dea480250fcf649003--yellow-lanterns-games.jpg',
 	 	'https://vignette.wikia.nocookie.net/villains/images/5/5c/RL-Tat.jpg/revision/latest?cb=20170301161559']
 
-	random_rersult = Math.floor(Math.random() * 120) + 19;
+	random_rersult = Math.floor(Math.random() * 101) + 19;
 
 	// console.log(random_rersult)
 
